@@ -1,4 +1,4 @@
-# 🏠 Indian Housing Price Prediction 🏡
+# 🏠 Makaan.Com -:(A-CASE-STUDY) Housing Price Prediction 🏡
 
 Welcome to the Indian Housing Price Prediction project! This project leverages machine learning to predict housing prices based on various 
 features such as house type, size, city, status (furnished, semi-furnished, unfurnished), and location. The project is built using Flask for the web application
