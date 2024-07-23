@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1d2c8; /* Updated background color */
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: #333;
+            text-align: center;
+        }
+        h1 {
+            color: #FE1123;
+        }
+        p {
+            font-size: 18px;
+            margin: 20px 0;
+        }
+        .emoji {
+            font-size: 24px;
+        }
+        .price {
+            font-size: 24px;
+            font-weight: bold;
+            color: #FE1123;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #FE1123;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        a:hover {
+            background-color: #e0101a;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏡 Prediction Result 🏡</h1>
+        <p class="emoji">✨ The predicted house price is: <span class="price">₹{{ prediction }}</span> ✨</p>
+        <a href="/">Go Back</a>
+    </div>
+</body>
+</html>
